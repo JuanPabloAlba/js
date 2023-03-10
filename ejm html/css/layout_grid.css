@@ -1,0 +1,25 @@
+.page {
+    display: grid;
+    grid-template-areas: "cabecera cabecera"
+        "navg contenido"
+        "piePag piePag";
+    /*grid-template-columns: 200px calc(100% - 200px);*/
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 150px calc(100vh - 300px) 150px;
+}
+
+.page header {
+    grid-area: cabecera;
+}
+
+.page nav {
+    grid-area: navg;
+}
+
+.page article {
+    grid-area: contenido;
+}
+
+.page footer {
+    grid-area: piePag;
+}

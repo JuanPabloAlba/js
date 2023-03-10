@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.page header,
+.page footer {
+    background-color: darkgray;
+    height: 150px;
+    width: 100%;
+}
+
+
+.content nav{
+    width: 200px;
+    height: calc(100vh - 300px);
+    background-color: #c2c2c2;
+}
